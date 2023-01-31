@@ -1,0 +1,116 @@
+header{
+    background-color:#1f2937;
+    padding: 1em 10em 7.5em 13em;
+}
+button{
+    background-color: #3882f6;
+    border: none;
+    border-radius: 0.5em;
+    color:#f9faf8;
+    font-size: 18px;
+    padding: 0.5em 2em 0.5em 2em;
+    font-weight: bold;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 25px;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -30px;
+    flex-wrap: wrap;
+}
+.description{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e5e7eb;
+}
+.sub-header{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+a{
+    color: #e5e7eb;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading{
+    margin-bottom: 8em;
+}
+.tagline{
+    font-size: 48px;
+    font-weight:bolder ;
+    color: #f9faf8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header-image{
+    float: right;
+    display: flex;
+    height: auto;
+    width: 14em;
+    margin-top: -12em;
+    padding-right: 4.5em;
+    max-width: 100%;
+}
+.main-header{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight:bolder;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1.5em 0em 1.5em 0em;
+}
+.samples{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1em;
+    border-radius: 1em;  
+    margin-bottom: 8em;
+}
+.yogo{
+    display: flex;
+    width: 15em;
+    max-width: 100%;
+    height: auto;
+    border-radius: 1em;
+}
+figcaption{
+    display: flex;
+    text-align:center ;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-style: oblique;
+    font-weight: bold;
+}
+.sub-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 36px;
+    background-color: #e5e7eb;
+    font-style: italic;
+    padding: 2em 4em 2em em;
+}
+
+.main-close{
+    display: flex;
+    flex-direction: row;
+    margin: 1em 10em 7.5em 13em;
+}
+body{
+    margin: 0px;
+}
