@@ -116,6 +116,7 @@ figcaption{
 }
 body{
     margin: 0px;
+    height: 100%;
 }
 .cta{
     background-color: #3882f6;
@@ -123,7 +124,7 @@ body{
     padding: 1em 2em 1em 2em;
     font-size: 20px;
     display: flex;
-    margin: 3em 14em 3em 14em;
+    margin: 3em 10em 3em 10em;
     border-radius: 0.2em;
     flex-direction: row;
     color: white;
@@ -136,4 +137,18 @@ body{
     padding: 0.5em 2em 0.5em 2em;
     font-weight: bold;
     border:2px solid white;
+    margin-left: 14em;
+}
+footer{
+    background-color: #1f2937;
+    bottom: 0;
+    position:fixed;
+    width: 100%;
+    padding: 1em 0 1em 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    color: #f9faf8;
+    margin-top: 0;
 }
