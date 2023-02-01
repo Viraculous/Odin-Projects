@@ -105,6 +105,9 @@ figcaption{
     font-style: italic;
     padding: 2em 4em 2em em;
 }
+.quote{
+    margin: 2em auto;
+}
 
 .main-close{
     display: flex;
@@ -113,4 +116,24 @@ figcaption{
 }
 body{
     margin: 0px;
+}
+.cta{
+    background-color: #3882f6;
+    justify-content: left;
+    padding: 1em 2em 1em 2em;
+    font-size: 20px;
+    display: flex;
+    margin: 3em 14em 3em 14em;
+    border-radius: 0.2em;
+    flex-direction: row;
+    color: white;
+}
+.counsel{
+    background-color: #3882f6;
+    border-radius: 0.5em;
+    color:#f9faf8;
+    font-size: 18px;
+    padding: 0.5em 2em 0.5em 2em;
+    font-weight: bold;
+    border:2px solid white;
 }
